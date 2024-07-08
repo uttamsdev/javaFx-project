@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="sample.UpdateController">
+   <children>
+      <Label layoutX="274.0" layoutY="14.0" prefHeight="65.0" prefWidth="260.0" text="UpdateQuery" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <TextField layoutX="233.0" layoutY="108.0" prefHeight="40.0" prefWidth="367.0" promptText="Name" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+      fx:id="nameX"/>
+      <TextField layoutX="240.0" layoutY="171.0" prefHeight="40.0" prefWidth="348.0" promptText="Number" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+      fx:id="NumberX"/>
+      <TextField layoutX="281.0" layoutY="235.0" prefHeight="40.0" prefWidth="287.0" promptText="Email" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+      fx:id="EmailX"/>
+      <Button layoutX="641.0" layoutY="470.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="96.0" text="Update" AnchorPane.bottomAnchor="27.0" AnchorPane.rightAnchor="23.0"
+      onAction="#updateContactField"/>
+      <Button layoutX="50.0" layoutY="470.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="96.0" text="Back" AnchorPane.bottomAnchor="27.0" AnchorPane.leftAnchor="20.0" />
+   </children>
+</AnchorPane>

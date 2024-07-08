@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="1115.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewContactController">
+   <children>
+      <Label alignment="CENTER" layoutX="392.0" layoutY="24.0" text="All Contacts" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font name="Consolas Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" layoutX="20.0" layoutY="70.0" prefHeight="411.0" prefWidth="881.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="70.0">
+        <columns>
+            <TableColumn fx:id="tableColID" prefWidth="132.0" text="SLNo" />
+          <TableColumn fx:id="tableColName" prefWidth="212.0" text="Full Name" />
+          <TableColumn fx:id="tableColNumber" minWidth="0.0" prefWidth="198.0" text="Phone Number" />
+            <TableColumn fx:id="tableColEmail" minWidth="9.0" prefWidth="271.0" text="Email Address" />
+            <TableColumn fx:id="tableColAction" minWidth="0.0" prefWidth="261.0" text="Action" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
